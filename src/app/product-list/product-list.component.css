@@ -1,0 +1,27 @@
+.container{
+    background: linear-gradient(to right, #c04848, #480048);
+    min-height: 100vh
+}
+.text-gray{
+    color: #aaa
+}
+img{
+    height: 170px;
+    width: 140px
+}
+
+.list-group-item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+
+
+.list-group-item:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
